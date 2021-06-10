@@ -1,0 +1,32 @@
+:root{
+    --accent-dark: rgba(7, 82, 180, 0.733);
+}
+*{
+    box-sizing:border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.site-header{
+    padding:40px;
+    text-align: center;
+    background: var(--accent-dark);
+    color:aliceblue;
+}
+.site-header h1{
+    text-align: left;
+    border:1px solid white;
+}
+
+.nav-bar{
+    background:antiquewhite;
+    display: flex;
+}
+.nav-bar a{
+    text-decoration: none;
+    text-align:center;
+    color:var(--accent-dark);
+    padding: 14px 20px;
+}
