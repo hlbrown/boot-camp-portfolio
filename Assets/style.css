@@ -29,6 +29,9 @@ h1 {
     flex-wrap: wrap;
     color:darkblue;
 }
+.banner{
+  background:darkblue;
+}
 
 
 .main-nav ul{
@@ -77,6 +80,41 @@ aside {
     height: 200px;
     border: 1px solid black;
   }
+  .work-container{
+    display: grid;
+    grid-template-columns:repeat (2, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+
+  }
+  .one{
+    grid-column: 1 / 3;
+    grid-row: 1;
+  }
+  .two{
+    grid-column:1/2;
+    grid-row: 2 / 3;
+  }
+  .three{
+    grid-column: 2 / 3;
+    grid-row: 2/3;
+
+  }
+  .four{
+    grid-column: 1 / 2;
+    grid-row: 3/3;
+  }
+  .five{
+    grid-column: 2 / 3;
+    grid-row: 3 / 3;
+  }
+  .contactInfo{
+    display:grid;
+  }
+  .section .contact{
+    display: flex;
+  }
+
   
   footer {
     padding: 20px;
@@ -95,6 +133,7 @@ aside {
         display: hide;
         text-align:center;
         border-bottom: 2px solid darkblue;
+        border-right:#fff;
     }
     /* Change the header background */
     header {
