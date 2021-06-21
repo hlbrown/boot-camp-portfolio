@@ -110,6 +110,15 @@ aside {
   }
   .contactInfo{
     display:grid;
+    justify-content: space-between;
+  }
+  .contact li{
+    list-style: none;
+  
+  }
+  .contact li a{
+    text-decoration: none;
+    
   }
   .section .contact{
     display: flex;
