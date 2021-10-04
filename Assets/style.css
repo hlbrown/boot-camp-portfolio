@@ -89,13 +89,16 @@ aside {
 
   }
   .work{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
     background-size: cover;
     position: relative;
+    
   
   }
+  
+
   .hero-text {
     text-align: left;
     position: absolute;
@@ -105,22 +108,27 @@ aside {
     color:var(--accent-dark);
     background:aqua;
     padding: 1em 2em 1em 2em;
+   
+  }
+  .hero-text a{
+    text-decoration: none;
   }
  
   .one{
     grid-column: 1 / 3;
     grid-row: 1;
+    background-image: url("./screenshots/imFeelingApp.JPG");
     
   }
   .two{
     grid-column:1/2;
     grid-row: 2 / 3;
-    
+    background-image: url("./screenshots/Login\ &\ Signup.png");
   }
   .three{
     grid-column: 2 / 3;
     grid-row: 2/3;
-    
+    background-image: url("./screenshots/sqlDatabaseSnip.JPG");
 
   }
   .four{
